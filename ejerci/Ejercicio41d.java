@@ -18,7 +18,7 @@ public class Ejercicio41d {
 
         if (x > y && z < 20) {
             System.out.println("Digite el valor de 9");
-           int p = sc.nextInt();
+           int p  = sc.nextInt();
         } else {
             System.out.println("No se cumplen las condiciones");
         }
