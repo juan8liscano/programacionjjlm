@@ -17,12 +17,13 @@ public class Ejercicio41d {
         int z = sc.nextInt();
 
         if (x > y && z < 20) {
-            System.out.println("Digite el valor de 9");
-           int p  = sc.nextInt();
+            System.out.println("Digite el valor de p");
+           int  p = sc.nextInt();
+           System.out.println("Digite el valor de p" + p);
         } else {
             System.out.println("No se cumplen las condiciones");
         }
-
+    
         sc.close();
     }
 }
