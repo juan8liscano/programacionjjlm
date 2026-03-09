@@ -31,7 +31,18 @@ public class Ejerccio412sg {
                 System.out.println("opcion no valida");
                 break;
         }
-
+       /* case 1:
+                System.out.println("la suma es"  + (num1 + num2));
+                break;
+                case 2:
+                System.out.println("la multipicacion es"  + (num1 * num2));
+                break;
+                case 3:
+                System.out.println("la division es"  + (num1 / num2));
+                break;
+            default:
+                System.out.println("opcion no valida");
+                break; */
         sc.close();
     }
 }
