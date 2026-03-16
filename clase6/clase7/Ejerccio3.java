@@ -26,7 +26,6 @@ public class Ejerccio3 {
         } else {
             System.out.println("No se ingresaron números positivos");
         }
-
         sc.close();
     }
 }
