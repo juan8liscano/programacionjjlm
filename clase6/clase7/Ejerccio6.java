@@ -18,7 +18,6 @@ public class Ejerccio6 {
             System.out.println(i + " x " + num + " = " + resultado);
         }
 
-        
         sc.close();
     }
 }
