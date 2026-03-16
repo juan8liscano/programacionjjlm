@@ -21,6 +21,7 @@ public class Ejerccio4 {
             numero = sc.nextDouble();
         }
 
+        
         if (contador > 0) {
             double media = suma / contador;
             System.out.println("La media es: " + media);
