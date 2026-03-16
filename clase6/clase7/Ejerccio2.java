@@ -12,6 +12,7 @@ public class Ejerccio2 {
         for (;;) {
             System.out.print("Ingrese un número entero (0 para terminar): ");
 
+            
             numero = sc.nextInt();
 
             if (numero == 0) {
