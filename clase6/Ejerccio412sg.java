@@ -15,7 +15,7 @@ public class Ejerccio412sg {
         num2 = sc.nextDouble();
         System.out.println("Digite lo seleccion 1,2.3");
         seleccion = sc.nextInt();
-
+        /* 
         switch (seleccion) {
             case 1:
                 System.out.println("la suma es"  + (num1 + num2));
@@ -30,19 +30,15 @@ public class Ejerccio412sg {
             default:
                 System.out.println("opcion no valida");
                 break;
-        }
-       /* case 1:
-                System.out.println("la suma es"  + (num1 + num2));
-                break;
-                case 2:
-                System.out.println("la multipicacion es"  + (num1 * num2));
-                break;
-                case 3:
-                System.out.println("la division es"  + (num1 / num2));
-                break;
-            default:
-                System.out.println("opcion no valida");
-                break; */
+                */
+        
+              switch (seleccion) {
+            case 1 -> System.out.println("la suma es"  + (num1 + num2));
+            case 2 -> System.out.println("la multipicacion es"  + (num1 * num2));
+            case 3 -> System.out.println("la division es"  + (num1 / num2));
+                default ->System.out.println("opcion no valida");
+                
+              }
         sc.close();
     }
 }
