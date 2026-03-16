@@ -11,6 +11,7 @@ public class Ejerccio6 {
         System.out.print("Ingrese un número para ver su tabla: ");
         num = sc.nextInt();
 
+        
         System.out.println("Tabla del " + num + ":");
 
         for (int i = 5; i <= 10; i++) {
