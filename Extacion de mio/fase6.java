@@ -143,14 +143,14 @@ public class fase6 {
 
             if (alerta) {
                 rutasConAlerta++;
-                System.out.println("⚠ Ruta con alerta");
+                System.out.println("Ruta con alerta");
             } else {
                 System.out.println("Ruta OK");
             }
         }
 
-        System.out.println("\nTotal pasajeros: " + totalPasajeros);
-        System.out.println("Total recaudo: $" + totalRecaudo);
+        System.out.println("\nTotal de pasajeros: " + totalPasajeros);
+        System.out.println("Total de recaudo: $" + totalRecaudo);
 
         if (rutasConAlerta == 0) {
             System.out.println("Operación NORMAL");
