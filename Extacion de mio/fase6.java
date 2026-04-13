@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class fase6 {
 
-        static Scanner scanner = new Scanner(System.in);
-
+    static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         int opcion;
