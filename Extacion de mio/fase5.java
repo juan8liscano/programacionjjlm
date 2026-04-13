@@ -33,7 +33,7 @@ public class fase5 {
                 System.out.println("Ruta " + ruta + ": OK - Sin irregularidades");
             } else {
                 rutasConAlerta++;
-                System.out.println("Ruta " + ruta + ": ⚠ ALERTA DETECTADA");
+                System.out.println("Ruta " + ruta + ": ALERTA DETECTADA");
 
                 if (alertaDemanda) {
                     System.out.println("- Baja demanda de pasajeros");
