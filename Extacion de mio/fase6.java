@@ -47,7 +47,7 @@ public class fase6 {
 
         int tarifaBase = 0;
         double descuento = 0;
-        boolean horaValle = (hora >= 9 && hora <= 16);
+        boolean horacali = (hora >= 9 && hora <= 16);
 
         switch (tipo) {
             case 1:
@@ -55,7 +55,7 @@ public class fase6 {
                 break;
             case 2:
                 tarifaBase = 1500;
-                if (horaValle)
+                if (horacali)
                     descuento = tarifaBase * 0.10;
                 break;
             case 3:
