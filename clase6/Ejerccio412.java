@@ -3,7 +3,7 @@ package clase6;
 import java.util.Scanner;
 
 public class Ejerccio412 {
-    public static void main(String[] args) {
+    ublic static void mpain(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
