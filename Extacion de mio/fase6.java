@@ -100,7 +100,7 @@ public class fase6 {
             if (pasajeros == 80) {
                 System.out.println("AFORO MAXIMO");
             } else if (pasajeros >= 48) {
-                System.out.println("BUS LLENO");
+                System.out.println("BUS A TOPE");
             } else {
                 System.out.println("NORMAL");
             }
