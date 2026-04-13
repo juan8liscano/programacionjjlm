@@ -4,7 +4,7 @@ public class fse3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion = -1;
-        
+
         while (opcion != 0) {
             System.out.println("=== SISTEMA MIO CALI ===");
             System.out.println("1. Cobrar tarifa");
@@ -12,9 +12,9 @@ public class fse3 {
             System.out.println("3. Reporte del día");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción: ");
-            
+
             opcion = scanner.nextInt();
-            
+
             switch (opcion) {
                 case 1:
                     // Llamar a la lógica de la Fase 1 (cobro de tarifa)
@@ -40,5 +40,5 @@ public class fse3 {
         }
         scanner.close();
     }
-    
+
 }
