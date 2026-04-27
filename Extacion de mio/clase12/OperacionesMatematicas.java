@@ -35,6 +35,7 @@ public class OperacionesMatematicas {
         } else {
             total = (double) a / (double) b;
         }
+        
         return total;
     }
 
